@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="xwv-library-base" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="BaseLibrary" target="1.8" />
+      <module name="Library" target="1.8" />
+      <module name="ProvidedLibrary" target="1.8" />
+      <module name="ServerLibrary" target="1.8" />
+      <module name="TestLibrary" target="1.8" />
+      <module name="xwv-library-base" target="1.8" />
+      <module name="xwv-library-provided" target="1.8" />
+      <module name="xwv-library-server" target="1.8" />
+      <module name="xwv-library-test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
